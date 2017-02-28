@@ -1,0 +1,38 @@
+/* line 1, /Users/brentwarnhoff/Documents/Web Dev Projects/media-objects/styles/main.scss */
+html {
+  font-size: 18px;
+  font-family: "Iowan Old Style", Georgia, serif; }
+
+/* line 6, /Users/brentwarnhoff/Documents/Web Dev Projects/media-objects/styles/main.scss */
+h1 {
+  text-align: center; }
+
+/* line 10, /Users/brentwarnhoff/Documents/Web Dev Projects/media-objects/styles/main.scss */
+.media-object {
+  display: flex;
+  width: 660px;
+  background-color: #dcdcdc;
+  border-radius: 6px;
+  padding: .75em;
+  margin: 2px auto; }
+  /* line 17, /Users/brentwarnhoff/Documents/Web Dev Projects/media-objects/styles/main.scss */
+  .media-object > img {
+    width: 100px;
+    height: 100px;
+    margin-right: .75em;
+    flex-shrink: 0; }
+  /* line 23, /Users/brentwarnhoff/Documents/Web Dev Projects/media-objects/styles/main.scss */
+  .media-object > .media-text {
+    flex-grow: 1; }
+    /* line 25, /Users/brentwarnhoff/Documents/Web Dev Projects/media-objects/styles/main.scss */
+    .media-object > .media-text > p {
+      margin-top: 0; }
+      /* line 27, /Users/brentwarnhoff/Documents/Web Dev Projects/media-objects/styles/main.scss */
+      .media-object > .media-text > p:last-child {
+        margin-bottom: 0; }
+    /* line 31, /Users/brentwarnhoff/Documents/Web Dev Projects/media-objects/styles/main.scss */
+    .media-object > .media-text > .media-object {
+      width: 100%;
+      padding: 0; }
+
+/*# sourceMappingURL=main.css.map */
